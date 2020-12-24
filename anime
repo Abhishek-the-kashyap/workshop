@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:100px;
+            height:100px;
+            border-radius: 50%;
+            background: #ffffff;
+            animation: mymov 12s infinite;
+        }
+        
+        
+        
+        
+    
+    @keyframes mymov {
+        0%{
+            margin-top: 486px;margin-left:400px;
+        }
+        12.5%{
+            margin-top: 40px;margin-left:900px;
+        }
+        25%{
+            margin-top: 825px;margin-left:1300px;
+        }
+        37.5%{
+            margin-top: 200px;margin-left:1790px;
+        }
+        50%{
+            margin-top: 50px;margin-left:1450px;
+        }
+        67.5%{
+            margin-top: 828px;margin-left:930px;
+        }
+        75%{
+            margin-top: 40px;margin-left:500px;
+        }
+        87.5%{
+            margin-top: 400px;margin-left:150px;
+        }
+        100%{
+            margin-top: 400px;margin-left:180px;
+        }
+    }
+  
+    </style>
+</head>
+<body style="height:730px;width:1620px;">
+    <body background="glo.jpg">
+    <div id="div"></div>
+    
+    
+    
+</body>
+</html>
+       
